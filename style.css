@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+body {
+    background: #00a470;
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+main {
+    margin-left: 15px;
+    /* display: flex;
+    flex-direction: column;
+    flex: 1;      */
+}
+
+/* 1 sekcija */
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    
+}
+.img1 {
+    width: 700px;
+    height: 400px;
+}
+.img2 {
+    width: 700px;
+    height: 400px;
+}
+.img3 {
+    width: 330px;
+    height: 220px;
+}
+article {
+    background: white;
+    height:110px;
+    width: 640px;
+    padding: 20px 30px;    
+}
+.articleright {
+    width: 270px;
+    height: 270px;
+    margin-top: 15px;
+    
+}
+div {
+    display: flex;
+    justify-content: space-between;    
+    padding: 3px 0;
+}
+.divright {
+    margin-top: 85px;
+}
+.divright1 {
+    margin-top: 165px;
+}
+p {
+    text-align: justify;
+    margin: 5px 0;
+    opacity: 0.5;
+}
+
